@@ -1,0 +1,48 @@
+{
+	"name": "wapplersystems/t3-phpbench",
+	"type": "typo3-cms-extension",
+	"description": "",
+	"homepage": "https://extensions.typo3.org/extension/phpbench/",
+	"license": "GPL-2.0+",
+	"support": {
+		"issues": "https://github.com/WapplerSystems/typo3-phpbench/issues",
+		"source": "https://github.com/WapplerSystems/typo3-phpbench"
+	},
+	"funding": [
+		{
+			"type": "other",
+			"url": "https://wappler.systems/"
+		}
+	],
+	"keywords": [
+		"TYPO3 CMS",
+		"Guestbook",
+		"WapplerSystems",
+		"Guest",
+		"Book",
+		"Feedback",
+		"Review"
+	],
+	"authors": [
+		{
+			"name": "Sven Wappler",
+			"role": "Developer",
+			"homepage": "https://wappler.systems/"
+		}
+	],
+	"require": {
+		"typo3/cms-core": "^11",
+		"typo3/cms-form": "^11",
+		"phpbench/phpbench": "^1"
+	},
+	"autoload": {
+		"psr-4": {
+			"WapplerSystems\\Phpbench\\": "Classes/"
+		}
+	},
+	"extra": {
+		"typo3/cms": {
+			"extension-key": "phpbench"
+		}
+	}
+}
